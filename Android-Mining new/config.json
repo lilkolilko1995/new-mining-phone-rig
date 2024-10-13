@@ -1,0 +1,24 @@
+{
+	"pools":[
+	{
+		"name": "unmineable.com",
+        "url": "stratum+ssl://rx.unmineable.com:443",
+		"timeout": 150,
+		"disabled": 0
+	},
+	{
+		"name": "unmineable.com",
+        "url": "stratum+ssl://rx.unmineable.com:443",
+		"timeout": 60,
+		"time-limit": 600,
+		"disabled": 0
+	}],
+	
+	"user": "kaspa:qzx56gpxwuvy7y72mlv9mjelw7slze08ae6e753vpyjtq42m9aelsw7kawamx##",
+	"algo": "kHeavyHash",
+	"threads": 8,
+	"cpu-priority": 8,
+	"retry-pause": 1,
+	"api-allow": "31.211.147.133",
+	"api-bind": "31.211.147.133"
+}
